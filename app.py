@@ -1,4 +1,4 @@
-from tracemalloc import stop
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -22,7 +22,7 @@ rad=st.sidebar.radio("Navigation",["Home","Spam or Ham Detection","Sentiment Ana
 
 #Home Page
 if rad=="Home":
-    st.title("Complete Text Analysis App")
+    st.title("Comprehensive Textual Analysis App")
     st.image("Complete Text Analysis Home Page.jpg")
     st.text(" ")
     st.text("The Following Text Analysis Options Are Available->")
